@@ -1,0 +1,8 @@
+tasks:
+  - name: Install dependencies
+    init: pip install -r requirements.txt
+
+vscode:
+  extensions:
+    - hbenl.vscode-test-explorer
+    - ms-python.python
